@@ -1,0 +1,3141 @@
+.oswald-uniquifier {
+    font-family: Oswald, sans-serif;
+}
+.schoolbell-regular {
+    font-family: Schoolbell, cursive;
+}
+@media screen and (min-width: 1540px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+    }
+    .navbar-brand img{
+        width:100px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .tofumadeeasy{
+        background-color: #b3e8e3;
+        background-image: url('../img/fallback-bg-bimage.webp');
+        z-index: 1;
+        position: relative;
+        
+    }
+    
+    .txttme {
+        color: rgb(5, 73, 39);
+        font-weight: 800;
+        font-size: 97px;
+        font-family: oswald;
+        line-height: 115px;
+    }
+    .txttme span{
+        color: #91b122;
+    }
+    .tmeshopexplore{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .tmeshopexplore .tmeshop{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .tmeshopexplore .tmeshop:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+    }
+    .tmeshopexplore .tmeexplore{
+        color: rgb(5, 73, 39);
+        text-decoration-style: wavy;
+        font-size: 18px;
+        font-weight: 550;
+        margin: 17px;
+    }
+    .tmeshopexplore .tmeexplore:hover{
+        color: #91b122;
+    }
+    .tmecube{
+        margin-bottom: -45px;
+        margin-top: -40px !important;
+    }
+    .tmecube img{
+        width:675px;
+    }
+    .exprecipe{
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nutrition .protein{
+        display: flex;
+        flex-direction: column;
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition .protein .gprotein{
+        color: #fae1d7;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .protein .aminoacid{
+        color: #fae1d7;
+        text-align: center;
+    }
+    .nutrition .ingredients{
+        display: flex;
+        flex-direction: column;
+        background-color: #fae1d7;
+    }
+    .nutrition .ingredients .ingre{
+        color: #ff802f;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ingredients .ingre-txt{
+        color: #ff802f;
+        text-align: center;
+    }
+    .nutrition .ingredients .explore{
+        text-align: center;
+    }
+    .nutrition .ingredients .explore a{
+        color: #ff802f;
+        font-weight: 600;
+        font-size: 17px;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+    .nutrition .ready{
+        display: flex;
+        flex-direction: column;
+        background-color:#e0de6e;
+    }
+    .nutrition .ready .ready-min{
+        color: #698e34;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ready .ready-prep{
+        color: #698e34;
+        text-align: center;
+    }
+    
+    .tofucertification{
+        background-image: url(../img/wave.svg);
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+    .tofucertification .tc{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .tofucertification .tc div{
+        align-self: center;
+    }
+    .tofucertification .tc .Organic img{
+        width:140px;
+    }
+    .tofucertification .tc .NON-GMO img{
+        width: 140px;
+    }
+    .tofucertification .tc .Plant-Based img{
+        width: 163px;
+    }
+    .tofucertification .tc .VEGAN img{
+        width: 163px;
+    }
+    .tofucertification .tc .India img{
+        width: 163px;
+    }
+    .tofucertification .tc .Plant-Based{
+        margin-bottom: 12px;
+    }
+    .tofucertification .tc .VEGAN{
+        margin-top: 12px;
+    }
+    .tofucertification .tc .India{
+        margin-bottom: 10px;
+    }
+
+    
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 100px;
+        font-family: oswald;
+        text-align: center;
+        margin: 40px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        max-width: 654px;
+        text-align: center;
+        font-size: 18px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    
+    .st{
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+    .st .shoptofu{
+        color: #000000;
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .st .products{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .st .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .st .products .plaintofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -45px;
+    }
+    .st .products .plaintofu .tagline{
+        text-align: center;
+        max-width: 280px;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .st .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .st .products .masalatofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -45px;
+    }
+    .st .products .masalatofu .tagline{
+        text-align: center;
+        max-width: 240px;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .st .shopproductwhich{
+        text-align: center;
+    }
+    .st .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .st .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+    
+    .newtotofu{
+        background-color: #00a1a7; 
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .newtotofu .newtotofu-txt::after{
+        content: "";
+        position: absolute;
+        top: -83.5%;
+       right: 92%;
+        width: 580px;
+        height: 620px;
+        background-image: url('../img/new-to-tofu-soybeans.png.webp') !important;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .newtotofu .newtotofu-txt::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+       right: -152%;
+        width: 455px;
+        height: 500px;
+        background-image: url('../img/new-to-tofu-right.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .newtotofu .newtotofu-txt{
+        justify-self: center;
+        max-width: 360px;
+        text-align: center;
+        position: relative;
+        padding: 6px;
+    }
+    .newtotofu .newtotofu-txt p:first-child{
+        font-size: 50px;
+        font-family: oswald;
+        font-weight: 600;
+        color: white;
+    }
+    .newtotofu .newtotofu-txt p:nth-child(2){
+        color: white;
+        line-height: 25px;
+        font-family: oswald;
+        margin: 20px;
+    }
+    .newtotofu .newtotofu-txt a button{
+        background-color: #ff802f;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: oswald;
+        border: 5px solid #ff802f;
+        border-radius: 33px;
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 20px;
+    }
+    .newtotofu .newtotofu-txt a:hover button{
+        color:#ff802f;
+        background-color: #fae1d7;
+    }
+    
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 1540px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+    }
+    .navbar-brand img{
+        width:100px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .tofumadeeasy{
+        background-color: #b3e8e3;
+        background-image: url('../img/fallback-bg-bimage.webp');
+        z-index: 1;
+        position: relative;
+        
+    }
+    
+    .txttme {
+        color: rgb(5, 73, 39);
+        font-weight: 800;
+        font-size: 97px;
+        font-family: oswald;
+        line-height: 115px;
+    }
+    .txttme span{
+        color: #91b122;
+    }
+    .tmeshopexplore{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .tmeshopexplore .tmeshop{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .tmeshopexplore .tmeshop:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+    }
+    .tmeshopexplore .tmeexplore{
+        color: rgb(5, 73, 39);
+        text-decoration-style: wavy;
+        font-size: 18px;
+        font-weight: 550;
+        margin: 17px;
+    }
+    .tmeshopexplore .tmeexplore:hover{
+        color: #91b122;
+    }
+    .tmecube{
+        margin-bottom: -45px;
+        margin-top: -40px !important;
+    }
+    .tmecube img{
+        width:675px;
+    }
+    .exprecipe{
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nutrition .protein{
+        display: flex;
+        flex-direction: column;
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition .protein .gprotein{
+        color: #fae1d7;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .protein .aminoacid{
+        color: #fae1d7;
+        text-align: center;
+    }
+    .nutrition .ingredients{
+        display: flex;
+        flex-direction: column;
+        background-color: #fae1d7;
+    }
+    .nutrition .ingredients .ingre{
+        color: #ff802f;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ingredients .ingre-txt{
+        color: #ff802f;
+        text-align: center;
+    }
+    .nutrition .ingredients .explore{
+        text-align: center;
+    }
+    .nutrition .ingredients .explore a{
+        color: #ff802f;
+        font-weight: 600;
+        font-size: 17px;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+    .nutrition .ready{
+        display: flex;
+        flex-direction: column;
+        background-color:#e0de6e;
+    }
+    .nutrition .ready .ready-min{
+        color: #698e34;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ready .ready-prep{
+        color: #698e34;
+        text-align: center;
+    }
+    
+    .tofucertification{
+        background-image: url(../img/wave.svg);
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+    .tofucertification .tc{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .tofucertification .tc div{
+        align-self: center;
+    }
+    .tofucertification .tc .Organic img{
+        width:140px;
+    }
+    .tofucertification .tc .NON-GMO img{
+        width: 140px;
+    }
+    .tofucertification .tc .Plant-Based img{
+        width: 163px;
+    }
+    .tofucertification .tc .VEGAN img{
+        width: 163px;
+    }
+    .tofucertification .tc .India img{
+        width: 163px;
+    }
+    .tofucertification .tc .Plant-Based{
+        margin-bottom: 12px;
+    }
+    .tofucertification .tc .VEGAN{
+        margin-top: 12px;
+    }
+    .tofucertification .tc .India{
+        margin-bottom: 10px;
+    }
+
+    
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 100px;
+        font-family: oswald;
+        text-align: center;
+        margin: 40px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        max-width: 654px;
+        text-align: center;
+        font-size: 18px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    
+    .st{
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+    .st .shoptofu{
+        color: #000000;
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .st .products{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .st .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .st .products .plaintofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -45px;
+    }
+    .st .products .plaintofu .tagline{
+        text-align: center;
+        max-width: 280px;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .st .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .st .products .masalatofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -45px;
+    }
+    .st .products .masalatofu .tagline{
+        text-align: center;
+        max-width: 240px;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .st .shopproductwhich{
+        text-align: center;
+    }
+    .st .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .st .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+    
+    .newtotofu{
+        background-color: #00a1a7; 
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .newtotofu .newtotofu-txt::after{
+        content: "";
+        position: absolute;
+        top: -83.5%;
+       right: 92%;
+        width: 580px;
+        height: 620px;
+        background-image: url('../img/new-to-tofu-soybeans.png.webp') !important;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .newtotofu .newtotofu-txt::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+       right: -152%;
+        width: 455px;
+        height: 500px;
+        background-image: url('../img/new-to-tofu-right.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .newtotofu .newtotofu-txt{
+        justify-self: center;
+        max-width: 360px;
+        text-align: center;
+        position: relative;
+        padding: 6px;
+    }
+    .newtotofu .newtotofu-txt p:first-child{
+        font-size: 50px;
+        font-family: oswald;
+        font-weight: 600;
+        color: white;
+    }
+    .newtotofu .newtotofu-txt p:nth-child(2){
+        color: white;
+        line-height: 25px;
+        font-family: oswald;
+        margin: 20px;
+    }
+    .newtotofu .newtotofu-txt a button{
+        background-color: #ff802f;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: oswald;
+        border: 5px solid #ff802f;
+        border-radius: 33px;
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 20px;
+    }
+    .newtotofu .newtotofu-txt a:hover button{
+        color:#ff802f;
+        background-color: #fae1d7;
+    }
+    
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div a{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navbar-brand img{
+        width:100px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .tofumadeeasy{
+        background-color: #b3e8e3;
+        background-image: url('../img/fallback-bg-bimage.webp');
+        z-index: 1;
+        position: relative;
+        padding-bottom: 100px;
+    }
+    
+    .txttme {
+        color: rgb(5, 73, 39);
+        font-weight: 800;
+        font-size: 97px;
+        font-family: oswald;
+        line-height: 115px;
+    }
+    .txttme span{
+        color: #91b122;
+    }
+    .tmeshopexplore{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        
+    }
+    .tmeshopexplore .tmeshop{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .tmeshopexplore .tmeshop:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+    }
+    .tmeshopexplore .tmeexplore{
+        color: rgb(5, 73, 39);
+        text-decoration-style: wavy;
+        font-size: 18px;
+        font-weight: 550;
+        margin: 17px;
+    }
+    .tmeshopexplore .tmeexplore:hover{
+        color: #91b122;
+    }
+    .tmecube{
+        margin-bottom: -95px;
+        margin-top: -40px !important;
+    }
+    .tmecube img{
+        width:475px;
+
+    }
+    .exprecipe{
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nutrition .protein{
+        display: flex;
+        flex-direction: column;
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition .protein .gprotein{
+        color: #fae1d7;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .protein .aminoacid{
+        color: #fae1d7;
+        text-align: center;
+    }
+    .nutrition .ingredients{
+        display: flex;
+        flex-direction: column;
+        background-color: #fae1d7;
+    }
+    .nutrition .ingredients .ingre{
+        color: #ff802f;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ingredients .ingre-txt{
+        color: #ff802f;
+        text-align: center;
+    }
+    .nutrition .ingredients .explore{
+        text-align: center;
+    }
+    .nutrition .ingredients .explore a{
+        color: #ff802f;
+        font-weight: 600;
+        font-size: 17px;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+    .nutrition .ready{
+        display: flex;
+        flex-direction: column;
+        background-color:#e0de6e;
+    }
+    .nutrition .ready .ready-min{
+        color: #698e34;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ready .ready-prep{
+        color: #698e34;
+        text-align: center;
+    }
+    
+    .tofucertification{
+        background-image: url(../img/wave.svg);
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+    .tofucertification .tc{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .tofucertification .tc div{
+        align-self: center;
+    }
+    .tofucertification .tc .Organic img{
+        width:140px;
+    }
+    .tofucertification .tc .NON-GMO img{
+        width: 140px;
+    }
+    .tofucertification .tc .Plant-Based img{
+        width: 163px;
+    }
+    .tofucertification .tc .VEGAN img{
+        width: 163px;
+    }
+    .tofucertification .tc .India img{
+        width: 163px;
+    }
+    .tofucertification .tc .Plant-Based{
+        margin-bottom: 12px;
+    }
+    .tofucertification .tc .VEGAN{
+        margin-top: 12px;
+    }
+    .tofucertification .tc .India{
+        margin-bottom: 10px;
+    }
+    
+    
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 100px;
+        font-family: oswald;
+        text-align: center;
+        margin: 40px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        max-width: 654px;
+        text-align: center;
+        font-size: 18px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    
+    .st{
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+    .st .shoptofu{
+        color: #000000;
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .st .products{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .st .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .st .products .plaintofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -45px;
+    }
+    .st .products .plaintofu .tagline{
+        text-align: center;
+        max-width: 280px;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .st .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .st .products .masalatofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -45px;
+    }
+    .st .products .masalatofu .tagline{
+        text-align: center;
+        max-width: 240px;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .st .shopproductwhich{
+        text-align: center;
+    }
+    .st .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .st .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+
+    .newtotofu{
+        background-color: #00a1a7; 
+        position: relative;
+    }
+    .newtotofu .newtotofu-txt::after{
+        content: "";
+        position: absolute;
+        top: -83.5%;
+       right: 92%;
+        width: 580px;
+        height: 620px;
+        background-image: url('../img/new-to-tofu-soybeans.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .newtotofu .newtotofu-txt::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+       right: -152%;
+        width: 455px;
+        height: 500px;
+        background-image: url('../img/new-to-tofu-right.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .newtotofu .newtotofu-txt{
+        justify-self: center;
+        max-width: 360px;
+        text-align: center;
+        position: relative;
+    }
+    .newtotofu .newtotofu-txt p:first-child{
+        font-size: 50px;
+        font-family: oswald;
+        font-weight: 600;
+        color: white;
+    }
+    .newtotofu .newtotofu-txt p:nth-child(2){
+        color: white;
+        line-height: 25px;
+        font-family: oswald;
+        margin: 20px;
+    }
+    .newtotofu .newtotofu-txt a button{
+        background-color: #ff802f;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: oswald;
+        border: 5px solid #ff802f;
+        border-radius: 33px;
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 20px;
+    }
+    .newtotofu .newtotofu-txt a:hover button{
+        color:#ff802f;
+        background-color: #fae1d7;
+    }
+    
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+    }
+    
+    .navbar-brand img{
+        width:100px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39) !important;
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .tofumadeeasy{
+        background-color: #b3e8e3;
+        background-image: url('../img/fallback-bg-bimage.webp');
+        z-index: 1;
+        position: relative;
+    }
+    
+    .txttme {
+        color: rgb(5, 73, 39);
+        font-weight: 800;
+        font-size: 97px;
+        font-family: oswald;
+        line-height: 115px;
+    }
+    .txttme span{
+        color: #91b122;
+    }
+    .tmeshopexplore{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        
+    }
+    .tmeshopexplore .tmeshop{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .tmeshopexplore .tmeshop:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+    }
+    .tmeshopexplore .tmeexplore{
+        color: rgb(5, 73, 39);
+        text-decoration-style: wavy;
+        font-size: 18px;
+        font-weight: 550;
+        margin: 17px;
+    }
+    .tmeshopexplore .tmeexplore:hover{
+        color: #91b122;
+    }
+    .tmecube{
+        margin-bottom: -45px;
+        margin-top: -40px !important;
+    }
+    .exprecipe{
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nutrition .protein{
+        display: flex;
+        flex-direction: column;
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition .protein .gprotein{
+        color: #fae1d7;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .protein .aminoacid{
+        color: #fae1d7;
+        text-align: center;
+    }
+    .nutrition .ingredients{
+        display: flex;
+        flex-direction: column;
+        background-color: #fae1d7;
+    }
+    .nutrition .ingredients .ingre{
+        color: #ff802f;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ingredients .ingre-txt{
+        color: #ff802f;
+        text-align: center;
+    }
+    .nutrition .ingredients .explore{
+        text-align: center;
+    }
+    .nutrition .ingredients .explore a{
+        color: #ff802f;
+        font-weight: 600;
+        font-size: 17px;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+    .nutrition .ready{
+        display: flex;
+        flex-direction: column;
+        background-color:#e0de6e;
+    }
+    .nutrition .ready .ready-min{
+        color: #698e34;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ready .ready-prep{
+        color: #698e34;
+        text-align: center;
+    }
+    
+    .tofucertification{
+        background-image: url(../img/wave.svg);
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+    .tofucertification .tc{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .tofucertification .tc div{
+        align-self: center;
+    }
+    .tofucertification .tc .Organic img{
+        width:140px;
+    }
+    .tofucertification .tc .NON-GMO img{
+        width: 140px;
+    }
+    .tofucertification .tc .Plant-Based img{
+        width: 163px;
+    }
+    .tofucertification .tc .VEGAN img{
+        width: 163px;
+    }
+    .tofucertification .tc .India img{
+        width: 163px;
+    }
+    .tofucertification .tc .Plant-Based{
+        margin-bottom: 12px;
+    }
+    .tofucertification .tc .VEGAN{
+        margin-top: 12px;
+    }
+    .tofucertification .tc .India{
+        margin-bottom: 10px;
+    }
+    
+    
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 100px;
+        font-family: oswald;
+        text-align: center;
+        margin: 40px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        max-width: 654px;
+        text-align: center;
+        font-size: 18px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    
+    .st{
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+    .st .shoptofu{
+        color: #000000;
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .st .products{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .st .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .st .products .plaintofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -45px;
+    }
+    .st .products .plaintofu .tagline{
+        text-align: center;
+        max-width: 280px;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .st .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .st .products .masalatofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -45px;
+    }
+    .st .products .masalatofu .tagline{
+        text-align: center;
+        max-width: 240px;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .st .shopproductwhich{
+        text-align: center;
+    }
+    .st .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .st .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+
+    .newtotofu{
+        background-color: #00a1a7; 
+        position: relative;
+    }
+    .newtotofu .newtotofu-txt::after{
+        content: "";
+        position: absolute;
+        top: -83.5%;
+       right: 92%;
+        width: 580px;
+        height: 620px;
+        background-image: url('../img/new-to-tofu-soybeans.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .newtotofu .newtotofu-txt::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+       right: -152%;
+        width: 455px;
+        height: 500px;
+        background-image: url('../img/new-to-tofu-right.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .newtotofu .newtotofu-txt{
+        justify-self: center;
+        max-width: 360px;
+        text-align: center;
+        position: relative;
+    }
+    .newtotofu .newtotofu-txt p:first-child{
+        font-size: 50px;
+        font-family: oswald;
+        font-weight: 600;
+        color: white;
+    }
+    .newtotofu .newtotofu-txt p:nth-child(2){
+        color: white;
+        line-height: 25px;
+        font-family: oswald;
+        margin: 20px;
+    }
+    .newtotofu .newtotofu-txt a button{
+        background-color: #ff802f;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: oswald;
+        border: 5px solid #ff802f;
+        border-radius: 33px;
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 20px;
+    }
+    .newtotofu .newtotofu-txt a:hover button{
+        color:#ff802f;
+        background-color: #fae1d7;
+    }
+    
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 425px){
+    header{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wheretobuy{
+        display: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .tofumadeeasy{
+        background-color: #b3e8e3;
+        background-image: url('../img/fallback-bg-bimage.webp');
+        z-index: 1;
+        position: relative;
+        padding-bottom: 30px;
+        padding-top: 170px;
+    }
+    .txttme {
+        color: rgb(5, 73, 39);
+        font-weight: 800;
+        font-size: 80px;
+        font-family: oswald;
+        line-height: 90px;
+        margin-bottom: 25px;
+    }
+    .txttme span{
+        color: #91b122;
+    }
+    .tmeshopexplore{
+        display: flex;
+        flex-direction: row;
+        position: relative;   
+    }
+    .tmeshopexplore{
+        margin-top: 25px;
+    }
+    .tmeshopexplore .tmeshop{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .tmeshopexplore .tmeshop:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+    }
+    .tmeshopexplore .tmeexplore{
+        color: rgb(5, 73, 39);
+        text-decoration-style: wavy;
+        font-size: 15px;
+        font-weight: 550;
+        margin: 17px;
+    }
+    .tmeshopexplore .tmeexplore:hover{
+        color: #91b122;
+    }
+    .tmecube{
+        display: none !important;
+    }
+    .nutrition{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nutrition .protein{
+        display: flex;
+        flex-direction: column;
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition .protein .gprotein{
+        color: #fae1d7;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .protein .aminoacid{
+        color: #fae1d7;
+        text-align: center;
+    }
+    .nutrition .ingredients{
+        display: flex;
+        flex-direction: column;
+        background-color: #fae1d7;
+    }
+    .nutrition .ingredients .ingre{
+        color: #ff802f;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ingredients .ingre-txt{
+        color: #ff802f;
+        text-align: center;
+    }
+    .nutrition .ingredients .explore{
+        text-align: center;
+    }
+    .nutrition .ingredients .explore a{
+        color: #ff802f;
+        font-weight: 600;
+        font-size: 17px;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+    .nutrition .ready{
+        display: flex;
+        flex-direction: column;
+        background-color:#e0de6e;
+    }
+    .nutrition .ready .ready-min{
+        color: #698e34;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ready .ready-prep{
+        color: #698e34;
+        text-align: center;
+    }
+    .tofucertification{
+        background-image: url(../img/wave.svg);
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        
+    }
+    .tofucertification .tc{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .tofucertification .tc .Organic img{
+        width:140px;
+    }
+    .tofucertification .tc .NON-GMO img{
+        width: 140px;
+    }
+    .tofucertification .tc .Plant-Based img{
+        width: 163px;
+    }
+    .tofucertification .tc .VEGAN img{
+        width: 163px;
+    }
+    .tofucertification .tc .India img{
+        width: 163px;
+    }
+    .tofucertification .tc div{
+        align-self: center;
+    }
+    .tofucertification .tc .Plant-Based{
+        margin-bottom: 12px;
+    }
+    .tofucertification .tc .VEGAN{
+        margin-top: 12px;
+    }
+    .tofucertification .tc .India{
+        margin-bottom: 10px;
+    }
+    .tofucertification2{
+        height: 250px;
+        align-content: center;
+    }
+    .tofucertification2 .tc2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+    .tofucertification2 .tc2 div{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    .st{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .st .shoptofu{
+        color: #000000;
+        font-size: 40px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .st .products{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .st .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+    }
+    .st .products .plaintofu .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -65px;
+    }
+    .st .products .plaintofu .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+
+    .st .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+    }
+    .st .products .masalatofu .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -65px;
+    }
+    .st .products .masalatofu .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+
+    .st .shopproductwhich{
+        text-align: center;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .st .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        font-size: 15px;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 560;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-decoration: none;
+        width: 250px;
+    }
+    .st .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+
+    .newtotofu{
+        background-color: #00a1a7; 
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .newtotofu .newtotofu-txt::after{
+        content: "";
+        position: absolute;
+        top: -83.5%;
+       right: 92%;
+        width: 580px;
+        height: 620px;
+        background-image: url('../img/new-to-tofu-soybeans.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .newtotofu .newtotofu-txt::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+       right: -152%;
+        width: 455px;
+        height: 500px;
+        background-image: url('../img/new-to-tofu-right.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .newtotofu .newtotofu-txt{
+        justify-self: center;
+        max-width: 360px;
+        text-align: center;
+        position: relative;
+    }
+    .newtotofu .newtotofu-txt p:first-child{
+        font-size: 45px;
+        font-family: oswald;
+        font-weight: 600;
+        color: white;
+    }
+    .newtotofu .newtotofu-txt p:nth-child(2){
+        color: white;
+        font-weight: 300;
+        line-height: 20px;
+        font-family: oswald;
+        margin: 15px;
+    }
+    .newtotofu .newtotofu-txt a button{
+        background-color: #ff802f;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: oswald;
+        border: 5px solid #ff802f;
+        border-radius: 33px;
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 15px;
+    }
+    .newtotofu .newtotofu-txt a:hover button{
+        color:#ff802f;
+        background-color: #fae1d7;
+    }
+
+
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 35px;
+        font-family: oswald;
+        text-align: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    .footer{
+        background-color: #698e34;
+        align-content: center;
+        padding-bottom: 24px;
+        height: 500px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 16px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 18px;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .social-media div:hover{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        margin: 16px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 13px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 13px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+    
+    
+}
+@media screen and (max-width: 375px){
+    header{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+  
+    .navbar-brand img{
+        width:80px;
+        padding-top: 10px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wheretobuy{
+        display: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .tofumadeeasy{
+        background-color: #b3e8e3;
+        background-image: url('../img/fallback-bg-bimage.webp');
+        z-index: 1;
+        position: relative;
+        padding-bottom: 30px;
+        padding-top: 180px;
+    }
+    .txttme {
+        color: rgb(5, 73, 39);
+        font-weight: 800;
+        font-size: 80px;
+        font-family: oswald;
+        line-height: 90px;
+        margin-bottom: 25px;
+    }
+    .txttme span{
+        color: #91b122;
+    }
+    .tmeshopexplore{
+        display: flex;
+        flex-direction: row;
+        position: relative;   
+    }
+    .tmeshopexplore{
+        margin-top: 25px;
+    }
+    .tmeshopexplore .tmeshop{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .tmeshopexplore .tmeshop:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+    }
+    .tmeshopexplore .tmeexplore{
+        color: rgb(5, 73, 39);
+        text-decoration-style: wavy;
+        font-size: 15px;
+        font-weight: 550;
+        margin: 17px;
+    }
+    .tmeshopexplore .tmeexplore:hover{
+        color: #91b122;
+    }
+    .tmecube{
+        display: none !important;
+    }
+    .nutrition{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nutrition .protein{
+        display: flex;
+        flex-direction: column;
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition .protein .gprotein{
+        color: #fae1d7;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .protein .aminoacid{
+        color: #fae1d7;
+        text-align: center;
+    }
+    .nutrition .ingredients{
+        display: flex;
+        flex-direction: column;
+        background-color: #fae1d7;
+    }
+    .nutrition .ingredients .ingre{
+        color: #ff802f;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ingredients .ingre-txt{
+        color: #ff802f;
+        text-align: center;
+    }
+    .nutrition .ingredients .explore{
+        text-align: center;
+    }
+    .nutrition .ingredients .explore a{
+        color: #ff802f;
+        font-weight: 600;
+        font-size: 17px;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+    .nutrition .ready{
+        display: flex;
+        flex-direction: column;
+        background-color:#e0de6e;
+    }
+    .nutrition .ready .ready-min{
+        color: #698e34;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ready .ready-prep{
+        color: #698e34;
+        text-align: center;
+    }
+    .tofucertification{
+        background-image: url(../img/wave.svg);
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        
+    }
+    .tofucertification .tc{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .tofucertification .tc .Organic img{
+        width:100px;
+    }
+    .tofucertification .tc .NON-GMO img{
+        width: 100px;
+    }
+    .tofucertification .tc .Plant-Based img{
+        width: 123px;
+    }
+    .tofucertification .tc .VEGAN img{
+        width: 123px;
+    }
+    .tofucertification .tc .India img{
+        width: 123px;
+    }
+    .tofucertification .tc div{
+        align-self: center;
+    }
+    
+    
+    .st{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .st .shoptofu{
+        color: #000000;
+        font-size: 40px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .st .products{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .st .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+    }
+    .st .products .plaintofu .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -65px;
+    }
+    .st .products .plaintofu .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+
+    .st .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+    }
+    .st .products .masalatofu .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -65px;
+    }
+    .st .products .masalatofu .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+
+    .st .shopproductwhich{
+        text-align: center;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .st .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        font-size: 15px;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 560;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-decoration: none;
+        width: 250px;
+    }
+    .st .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+
+    .newtotofu{
+        background-color: #00a1a7; 
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .newtotofu .newtotofu-txt::after{
+        content: "";
+        position: absolute;
+        top: -83.5%;
+       right: 92%;
+        width: 580px;
+        height: 620px;
+        background-image: url('../img/new-to-tofu-soybeans.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .newtotofu .newtotofu-txt::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+       right: -152%;
+        width: 455px;
+        height: 500px;
+        background-image: url('../img/new-to-tofu-right.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .newtotofu .newtotofu-txt{
+        justify-self: center;
+        max-width: 360px;
+        text-align: center;
+        position: relative;
+    }
+    .newtotofu .newtotofu-txt p:first-child{
+        font-size: 45px;
+        font-family: oswald;
+        font-weight: 600;
+        color: white;
+    }
+    .newtotofu .newtotofu-txt p:nth-child(2){
+        color: white;
+        font-weight: 300;
+        line-height: 20px;
+        font-family: oswald;
+        margin: 15px;
+    }
+    .newtotofu .newtotofu-txt a button{
+        background-color: #ff802f;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: oswald;
+        border: 5px solid #ff802f;
+        border-radius: 33px;
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 15px;
+    }
+    .newtotofu .newtotofu-txt a:hover button{
+        color:#ff802f;
+        background-color: #fae1d7;
+    }
+
+
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 35px;
+        font-family: oswald;
+        text-align: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    .footer{
+        background-color: #698e34;
+        align-content: center;
+        padding-bottom: 24px;
+        height: 480px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 16px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 18px;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .social-media div:hover{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        margin: 16px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 13px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 13px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+    
+    
+}
+@media screen and (max-width: 320px){
+    header{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+    header .navbar button{
+        background-color: white;
+    }
+    .navbar-brand img{
+        width:80px;
+        padding-top: 10px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wheretobuy{
+        display: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .tofumadeeasy{
+        background-color: #b3e8e3;
+        background-image: url('../img/fallback-bg-bimage.webp');
+        z-index: 1;
+        position: relative;
+        padding-top: 175px !important;
+    }
+    .txttme {
+        color: rgb(5, 73, 39);
+        font-weight: 800;
+        font-size: 70px;
+        font-family: oswald;
+        line-height: 80px;
+        margin-bottom: 25px;
+    }
+    .txttme span{
+        color: #91b122;
+    }
+    .tmeshopexplore{
+        display: flex;
+        flex-direction: row;
+        position: relative;   
+    }
+    .tmeshopexplore{
+        margin-top: 25px;
+    }
+    .tmeshopexplore .tmeshop{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-decoration: none;
+    }
+    .tmeshopexplore .tmeshop:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+    }
+    .tmeshopexplore .tmeexplore{
+        color: rgb(5, 73, 39);
+        text-decoration-style: wavy;
+        font-size: 12px;
+        font-weight: 550;
+        margin: 13px;
+    }
+    .tmeshopexplore .tmeexplore:hover{
+        color: #91b122;
+    }
+    .tmecube{
+        display: none !important;
+    }
+    .nutrition{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nutrition .protein{
+        display: flex;
+        flex-direction: column;
+        background-color: #ff802f;
+    }
+    
+    
+    .nutrition .protein .gprotein{
+        color: #fae1d7;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .protein .aminoacid{
+        color: #fae1d7;
+        text-align: center;
+    }
+    .nutrition .ingredients{
+        display: flex;
+        flex-direction: column;
+        background-color: #fae1d7;
+    }
+    .nutrition .ingredients .ingre{
+        color: #ff802f;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ingredients .ingre-txt{
+        color: #ff802f;
+        text-align: center;
+    }
+    .nutrition .ingredients .explore{
+        text-align: center;
+    }
+    .nutrition .ingredients .explore a{
+        color: #ff802f;
+        font-weight: 600;
+        font-size: 17px;
+        text-decoration-style: wavy;
+        text-align: center;
+    }
+    .nutrition .ready{
+        display: flex;
+        flex-direction: column;
+        background-color:#e0de6e;
+    }
+    .nutrition .ready .ready-min{
+        color: #698e34;
+        font-family: oswald;
+        text-align: center;
+    }
+    .nutrition .ready .ready-prep{
+        color: #698e34;
+        text-align: center;
+    }
+    .tofucertification{
+        background-image: url(../img/wave.svg);
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        
+    }
+    .tofucertification .tc{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .tofucertification .tc .Organic img{
+        width:80px;
+    }
+    .tofucertification .tc .NON-GMO img{
+        width: 80px;
+    }
+    .tofucertification .tc .Plant-Based img{
+        width: 103px;
+    }
+    .tofucertification .tc .VEGAN img{
+        width: 103px;
+    }
+    .tofucertification .tc .India img{
+        width: 103px;
+    }
+    .tofucertification .tc div{
+        align-self: center;
+    }
+    
+    
+    
+    .st{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .st .shoptofu{
+        color: #000000;
+        font-size: 35px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .st .products{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .st .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+    }
+    .st .products .plaintofu .prdctname{
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -42px;
+    }
+    .st .products .plaintofu .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+
+    .st .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+    }
+    .st .products .masalatofu .prdctname{
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -42px;
+    }
+    .st .products .masalatofu .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+
+    .st .shopproductwhich{
+        text-align: center;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .st .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        font-size: 13px;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 560;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+        width: 180px;
+    }
+    .st .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+
+    .newtotofu{
+        background-color: #00a1a7; 
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .newtotofu .newtotofu-txt::after{
+        content: "";
+        position: absolute;
+        top: -83.5%;
+       right: 92%;
+        width: 580px;
+        height: 620px;
+        background-image: url('../img/new-to-tofu-soybeans.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .newtotofu .newtotofu-txt::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+       right: -152%;
+        width: 455px;
+        height: 500px;
+        background-image: url('../img/new-to-tofu-right.png.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .newtotofu .newtotofu-txt{
+        justify-self: center;
+        max-width: 360px;
+        text-align: center;
+        position: relative;
+    }
+    .newtotofu .newtotofu-txt p:first-child{
+        font-size: 40px;
+        font-family: oswald;
+        font-weight: 600;
+        color: white;
+    }
+    .newtotofu .newtotofu-txt p:nth-child(2){
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        font-family: oswald;
+        margin: 15px;
+    }
+    .newtotofu .newtotofu-txt a button{
+        background-color: #ff802f;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: oswald;
+        border: 5px solid #ff802f;
+        border-radius: 33px;
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 15px;
+    }
+    .newtotofu .newtotofu-txt a:hover button{
+        color:#ff802f;
+        background-color: #fae1d7;
+    }
+
+
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 30px;
+        font-family: oswald;
+        text-align: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        text-align: center;
+        font-size: 12px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    .footer{
+        background-color: #698e34;
+        align-content: center;
+        padding-bottom: 204px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 16px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 17px;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .social-media div:hover{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        margin: 16px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 11px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 13px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+    
+    
+}
+
+
+

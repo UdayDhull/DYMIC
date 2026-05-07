@@ -1,0 +1,1298 @@
+.oswald-uniquifier {
+    font-family: Oswald, sans-serif;
+}
+.schoolbell-regular {
+    font-family: Schoolbell, cursive;
+}
+
+
+@media screen and (min-width: 1540px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+    }
+    .navbar-brand img{
+        width:100px;
+    }
+    
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: black;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .contact-us{
+        background-image: url('../img/Banner_OurMission_a.jpg');
+        background-repeat: no-repeat;
+        background-size: 2000px;
+        z-index: 1;
+        position: relative;
+        padding-top: 170px;
+        padding-bottom: 35px;
+        margin-bottom: 40px;
+    }
+    .contact-us .container{
+        justify-self: left;
+    }
+    .contact-us .container .contactus-txt{
+        color: white;
+        margin-top: 0;
+        margin-left: 170px;
+        font-size: 90px;
+        font-weight: 700;
+        font-family: oswald;
+    }
+    .lets-connect{
+        margin: 40px;
+    }
+    .lets-connect .txt p:first-child{
+        color: black;
+        font-weight: 800;
+        font-size: 60px;
+        font-family: oswald;
+    }
+    .lets-connect .txt p:last-child{
+        font-size: 18px;
+        font-weight: 350;
+        font-family: oswald;
+    }
+
+    .contact-form{
+        max-width: 900px;
+    }
+    
+    .contact-form .form-control{
+        border-radius: 8px;
+        border: 2px solid #ddd;
+        font-family: Oswald;
+    }
+    
+    .contact-form .form-control:focus{
+        border-color: #1c4730;
+        box-shadow: none;
+    }
+    
+    .contact-form button{
+        background-color: #1c4730;
+        border: none;
+        border: 5px solid #1c4730;
+        font-family: Oswald;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .contact-form button:hover{
+        background-color: #e0de6e;
+        color: #1c4730;
+    }
+    
+
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div a{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 1540px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+    }
+    .navbar-brand img{
+        width:100px;
+    }
+    
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: black;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .contact-us{
+        background-image: url('../img/Banner_OurMission_a.jpg');
+        background-repeat: no-repeat;
+        background-size: 2000px;
+        z-index: 1;
+        position: relative;
+        padding-top: 170px;
+        padding-bottom: 35px;
+        margin-bottom: 40px;
+    }
+    .contact-us .container{
+        justify-self: left;
+    }
+    .contact-us .container .contactus-txt{
+        color: white;
+        margin-top: 0;
+        margin-left: 170px;
+        font-size: 90px;
+        font-weight: 700;
+        font-family: oswald;
+    }
+    .lets-connect{
+        margin: 40px;
+    }
+    .lets-connect .txt p:first-child{
+        color: black;
+        font-weight: 800;
+        font-size: 60px;
+        font-family: oswald;
+    }
+    .lets-connect .txt p:last-child{
+        font-size: 18px;
+        font-weight: 350;
+        font-family: oswald;
+    }
+
+    .contact-form{
+        max-width: 900px;
+    }
+    
+    .contact-form .form-control{
+        border-radius: 8px;
+        border: 2px solid #ddd;
+        font-family: Oswald;
+    }
+    
+    .contact-form .form-control:focus{
+        border-color: #1c4730;
+        box-shadow: none;
+    }
+    
+    .contact-form button{
+        background-color: #1c4730;
+        border: none;
+        border: 5px solid #1c4730;
+        font-family: Oswald;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .contact-form button:hover{
+        background-color: #e0de6e;
+        color: #1c4730;
+    }
+    
+
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div a{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navbar-brand img{
+        width:100px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .contact-us{
+        background-image: url('../img/Banner_OurMission_a.jpg');
+        background-repeat: no-repeat;
+        background-size: 2000px;
+        z-index: 1;
+        position: relative;
+        padding-top: 170px;
+        padding-bottom: 35px;
+        margin-bottom: 40px;
+    }
+    .contact-us .container{
+        justify-self: left;
+    }
+    .contact-us .container .contactus-txt{
+        color: white;
+        margin-top: 0;
+        margin-left: 170px;
+        font-size: 90px;
+        font-weight: 700;
+        font-family: oswald;
+    }
+    .lets-connect .txt p:first-child{
+        color: black;
+        font-weight: 800;
+        font-size: 60px;
+        font-family: oswald;
+    }
+    .lets-connect .txt p:last-child{
+        font-size: 18px;
+        font-weight: 350;
+        font-family: oswald;
+    }
+
+    .contact-form{
+        max-width: 900px;
+    }
+    
+    .contact-form .form-control{
+        border-radius: 8px;
+        border: 2px solid #ddd;
+        font-family: Oswald;
+    }
+    
+    .contact-form .form-control:focus{
+        border-color: #1c4730;
+        box-shadow: none;
+    }
+    
+    .contact-form button{
+        background-color: #1c4730;
+        border: none;
+        border: 5px solid #1c4730;
+        font-family: Oswald;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .contact-form button:hover{
+        background-color: #e0de6e;
+        color: #1c4730;
+    }
+    
+
+
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+    }
+    
+    .navbar-brand img{
+        width:100px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39) !important;
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .contact-us{
+        background-image: url('../img/Banner_OurMission_a.jpg');
+        background-repeat: no-repeat;
+        background-size: 2000px;
+        z-index: 1;
+        position: relative;
+        padding-top: 170px;
+        padding-bottom: 35px;
+        margin-bottom: 40px;
+    }
+    .contact-us .container{
+        justify-self: left;
+    }
+    .contact-us .container .contactus-txt{
+        color: white;
+        margin-top: 0;
+        margin-left: 170px;
+        font-size: 90px;
+        font-weight: 700;
+        font-family: oswald;
+    }
+    .lets-connect .txt p:first-child{
+        color: black;
+        font-weight: 800;
+        font-size: 60px;
+        font-family: oswald;
+    }
+    .lets-connect .txt p:last-child{
+        font-size: 18px;
+        font-weight: 350;
+        font-family: oswald;
+    }
+
+    .contact-form{
+        max-width: 900px;
+    }
+    
+    .contact-form .form-control{
+        border-radius: 8px;
+        border: 2px solid #ddd;
+        font-family: Oswald;
+    }
+    
+    .contact-form .form-control:focus{
+        border-color: #1c4730;
+        box-shadow: none;
+    }
+    
+    .contact-form button{
+        background-color: #1c4730;
+        border: none;
+        border: 5px solid #1c4730;
+        font-family: Oswald;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .contact-form button:hover{
+        background-color: #e0de6e;
+        color: #1c4730;
+    }
+    
+
+
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 425px){
+    header{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wheretobuy{
+        display: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .contact-us{
+        background-image: url('../img/Banner_OurMission_a.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+        position: relative;
+        padding-top: 170px;
+        padding-bottom: 35px;
+        margin-bottom: 40px;
+    }
+    .contact-us .container{
+        justify-self: left;
+    }
+    .contact-us .container .contactus-txt{
+        color: white;
+        margin-top: 0;
+        margin-left: 0px;
+        font-size: 38px;
+        font-weight: 700;
+        font-family: oswald;
+    }
+    .lets-connect{
+        text-align: left;
+    }
+    .lets-connect .txt p:first-child{
+        color: black;
+        font-weight: 800;
+        font-size: 33px;
+        font-family: oswald;
+    }
+    .lets-connect .txt p:last-child{
+        font-size: 18px;
+        font-weight: 350;
+        font-family: oswald;
+    }
+    .contact-form{
+        max-width: 900px;
+    }
+    
+    .contact-form .form-control{
+        border-radius: 8px;
+        border: 2px solid #ddd;
+        font-family: Oswald;
+    }
+    
+    .contact-form .form-control:focus{
+        border-color: #1c4730;
+        box-shadow: none;
+    }
+    
+    .contact-form button{
+        background-color: #1c4730;
+        border: none;
+        border: 5px solid #1c4730;
+        font-family: Oswald;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .contact-form button:hover{
+        background-color: #e0de6e;
+        color: #1c4730;
+    }
+    
+
+
+    .footer{
+        background-color: #698e34;
+        align-content: center;
+        padding-bottom: 24px;
+        height: 500px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 16px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 18px;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        margin: 16px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 13px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 13px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+    
+    
+}
+@media screen and (max-width: 375px){
+    header{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+  
+    .navbar-brand img{
+        width:80px;
+        padding-top: 10px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wheretobuy{
+        display: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .contact-us{
+        background-image: url('../img/Banner_OurMission_a.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+        position: relative;
+        padding-top: 170px;
+        padding-bottom: 35px;
+        margin-bottom: 40px;
+    }
+    .contact-us .container{
+        justify-self: left;
+    }
+    .contact-us .container .contactus-txt{
+        color: white;
+        margin-top: 0;
+        margin-left: 0px;
+        font-size: 33px;
+        font-weight: 700;
+        font-family: oswald;
+    }
+    .lets-connect{
+        text-align: left;
+    }
+    .lets-connect .txt p:first-child{
+        color: black;
+        font-weight: 800;
+        font-size: 30px;
+        font-family: oswald;
+    }
+    .lets-connect .txt p:last-child{
+        font-size: 17px;
+        font-weight: 350;
+        font-family: oswald;
+    }
+    .contact-form{
+        max-width: 900px;
+    }
+    
+    .contact-form .form-control{
+        border-radius: 8px;
+        border: 2px solid #ddd;
+        font-family: Oswald;
+    }
+    
+    .contact-form .form-control:focus{
+        border-color: #1c4730;
+        box-shadow: none;
+    }
+    
+    .contact-form button{
+        background-color: #1c4730;
+        border: none;
+        border: 5px solid #1c4730;
+        font-family: Oswald;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .contact-form button:hover{
+        background-color: #e0de6e;
+        color: #1c4730;
+    }
+    
+
+
+    .footer{
+        background-color: #698e34;
+        align-content: center;
+        padding-bottom: 24px;
+        height: 480px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 16px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 18px;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        margin: 16px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 13px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 13px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+    
+    
+}
+@media screen and (max-width: 320px){
+    header{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+    header .navbar button{
+        background-color: white;
+    }
+    .navbar-brand img{
+        width:80px;
+        padding-top: 10px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wheretobuy{
+        display: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+
+    .contact-us{
+        background-image: url('../img/Banner_OurMission_a.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+        position: relative;
+        padding-top: 170px;
+        padding-bottom: 35px;
+        margin-bottom: 40px;
+    }
+    .contact-us .container{
+        justify-self: left;
+    }
+    .contact-us .container .contactus-txt{
+        color: white;
+        margin-top: 0;
+        margin-left: 0px;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: oswald;
+    }
+    .lets-connect{
+        text-align: left;
+    }
+    .lets-connect .txt p:first-child{
+        color: black;
+        font-weight: 800;
+        font-size: 28px;
+        font-family: oswald;
+    }
+    .lets-connect .txt p:last-child{
+        font-size: 16px;
+        font-weight: 350;
+        font-family: oswald;
+    }
+
+    .contact-form{
+        max-width: 900px;
+    }
+    
+    .contact-form .form-control{
+        border-radius: 8px;
+        border: 2px solid #ddd;
+        font-family: Oswald;
+    }
+    
+    .contact-form .form-control:focus{
+        border-color: #1c4730;
+        box-shadow: none;
+    }
+    
+    .contact-form button{
+        background-color: #1c4730;
+        border: none;
+        border: 5px solid #1c4730;
+        font-family: Oswald;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .contact-form button:hover{
+        background-color: #e0de6e;
+        color: #1c4730;
+    }
+    
+
+    .footer{
+        background-color: #698e34;
+        align-content: center;
+        padding-bottom: 204px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 16px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 17px;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        margin: 16px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 11px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 13px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+    
+    
+}

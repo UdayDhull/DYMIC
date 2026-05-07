@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/SGM-Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/sgmproducts.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>SGM Soya_Paneer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+        .navbar .nav-link{
+           color: white;
+            transition: 0.2s;
+        }
+
+        nav.scrolled .nav-link,
+        nav.menu-open .nav-link{
+                color: black;
+       }
+
+        nav.scrolled .nav-item:hover .nav-link,
+        nav.menu-open .nav-item:hover .nav-link{
+              color: #1c4730;
+        }
+
+            .scrolled,
+        .menu-open{
+            background: white;
+             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+        </style>
+            
+        <script>
+
+                window.addEventListener("scroll", function(){
+                let navbar = document.querySelector("nav");
+                navbar.classList.toggle("scrolled", window.scrollY > 50);
+                });
+
+                document.addEventListener("DOMContentLoaded", function () {
+                let navbar = document.querySelector("nav");
+                let menu = document.getElementById("mynavbar");
+            
+                menu.addEventListener("show.bs.collapse", function () {
+                    navbar.classList.add("menu-open");
+                });
+            
+                menu.addEventListener("hide.bs.collapse", function () {
+                    navbar.classList.remove("menu-open");
+                });
+            });
+        </script>
+</head>
+<body>
+
+    <div class="modal" id="buyModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title w-100  text-center"><h3>WHERE TO BUY!</h3></div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="txt mb-4">
+                        <p style="text-align: center; font-weight: 700; font-size: 25px; font-family: oswald;">SGM SOYA PANEER</p>
+                        <p style="text-align: center; font-family: oswald;">Near Appolo Road Jind, Haryana, India</p> <hr>
+                        <div class="txt-link text-center">
+                            <a target="_blank" href="https://www.google.com/maps/place/Apollo+Rd,+Patiala+Chowk,+Jind,+Haryana+126102/@29.3324332,76.300894,868m/data=!3m2!1e3!4b1!4m6!3m5!1s0x391204ed1f775ec9:0xdbbcc378f6871fd3!8m2!3d29.3324285!4d76.3034689!16s%2Fg%2F1tmqdlx4?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D" style="text-decoration: none; text-align: center;"><i class="fa-solid fa-location-dot"></i> View on Google Maps</a>
+                        </div><hr>
+                    </div>
+                    <iframe
+                        src="https://maps.google.com/maps?q=apollo%20road%20jind&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="100%" 
+                        height="400"
+                        style="border:0;">
+                    </iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-xl  ">
+            <div class="container">
+                <div><a class="navbar-brand" href="sgmindex.html"><img src="img/SGM-Logo.png" alt=""></a></div>
+                
+                <button  class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse  justify-content-center" id="mynavbar">
+                    <ul class="navbar-nav" style="align-items: center;">
+                        <li class="nav-item  p-1 mx-sm-1 mx-md-3 mx-lg-3 mx-xl-4 mx-xxl-4  ">
+                    <a href="sgmproducts.html" class="nav-link">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item  p-1 mx-sm-1 mx-md-3 mx-lg-3 mx-xl-4 mx-xxl-4 ">
+                    <a href="sgm_about.html" class="nav-link">ABOUT</a>
+                        </li>
+                        <li class="nav-item  p-1 mx-sm-1 mx-md-3 mx-lg-3 mx-xl-4 mx-xxl-4 ">
+                    <a href="sgmcontact.html" class="nav-link">CONTACT US</a>
+                        </li>
+                        <li class="nav-item  p-1 mx-sm-1 mx-md-3 mx-lg-3 mx-xl-4 mx-xxl-4 ">
+                            <a href="" class="nav-link">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="wheretobuy">
+                    <button class="wtbuy text-light rounded-pill p-3 px-4" 
+                            data-bs-toggle="modal" 
+                            data-bs-target="#buyModal">
+                        Where to Buy!
+                    </button>
+                    </a>
+                </div>
+            
+        </nav>
+    </header>
+
+
+
+    <div class="shopproduct">
+        <div class="container">
+            <div class="txttme">
+                <p>PLANT-BASED <br> GOODNESS</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="exploreproducts">
+        <div class="exploreproducts-txt">EXPLORE PRODUCTS</div>
+        <div class="products">
+            <div class="plaintofu col-lg-2">
+                <div class="img"><img src="img/SGM-TOfu.png" width="100%" alt=""></div>
+                <div class="prdctname">PLAIN TOFU</div>
+                <div class="tagline"><p>The perfect base for every great dish, ready  absorb flavour beautifully.</p></div>
+            </div> 
+            <div class="masalatofu col-lg-2">
+                <div class="img"><img src="img/SGM-TOfu.png" width="100%" alt=""></div>
+                <div class="prdctname">MASALA TOFU</div>
+                <div class="tagline"><p>Bold spices and rich flavor, ready to make every dish exciting.</p></div>
+            </div> 
+            <div class="dahi col-lg-2">
+                <div class="img py-4"><img src="img/SGM-dhee.png" width="100%" alt=""></div>
+                <div class="prdctname">SOYA DAHI</div>
+                <div class="tagline"><p>TCreamy, fresh, and wholesome — a delicious twist on traditional dahi.</p></div>
+            </div> 
+            <div class="milk col-lg-2">
+                <div class="img  py-4"><img src="img/SGM-Milk.png" width="100%" alt=""></div>
+                <div class="prdctname">SOYA MIILK</div>
+                <div class="tagline"><p>Smooth, nutritious, and refreshing — perfect for a healthy start every day.</p></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="toogood mt-5 mb-5">
+        <div class="toogoodtofu">
+            <p>Too Good To Be TOFU.</p>
+        </div>
+        <div class="toogoodtxt">
+            <p><span>SGM Soya_Paneer</span> — unlike other Soya_Paneer.  Made for superior quality you can trust. <span>HANDMADE</span> with care for richer taste and smoother texture, making it <span>A ZILLION TIMES TASTIER.</span> A choice for those who expect more from their food.  </p>
+        </div>
+    </div>
+
+    <div class="footer ">
+        <div class="social-media  ">
+            <div class="m-1 p-1 "><a href=""><i class="fa-brands fa-facebook-f"></i></a></div>
+            <div class="m-1 p-1 "><a target="_blank" href="https://www.instagram.com/sgmsoyapaneer/"><i class="fa-brands fa-instagram"></i></a></div>
+        </div>
+        <div class="fnav ">
+            <div class="m-1 p-1"><a href="">FAQ</a></div>
+            <div class="m-1 p-1"><a href="sgm_about.html">ABOUT</a></div>
+            <div class="m-1 p-1"><a href="sgmcontact.html">CONTACT US</a></div>
+            <div class="m-1 p-1"><a href="sgmproducts.html">PRODUCTS</a></div>
+        </div>
+        <div class="privacy ">
+            <div class="m-1 p-1 mx-3"><a href="">Privacy Policy</a></div>
+            <div class="m-1 p-1 mx-3"><a href="">Social and Corporate Principles</a></div>
+            <div class="m-1 p-1 mx-3"><a href="">Transparency in Coverage</a></div>
+            <div class="m-1 p-1 mx-3"><a href="">Giveaway Official Rules</a></div>
+        </div>
+        <div class="copyright"><p>© 2026 SGM Soya Paneer | Pure & Healthy</p></div>
+        <div class="develop"><a target="_blank" href="https://msoftcode.com/">designed & developed by MSOFTCODE</a></div>
+    </div>
+        
+</body>
+</html>

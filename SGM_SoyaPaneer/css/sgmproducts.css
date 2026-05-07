@@ -1,0 +1,2010 @@
+.oswald-uniquifier {
+    font-family: Oswald, sans-serif;
+}
+.schoolbell-regular {
+    font-family: Schoolbell, cursive;
+}
+@media screen and (min-width: 1540px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+    }
+    .navbar-brand img{
+        width:100px;
+    }
+    
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: white;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .shopproduct{
+        background-image: url('../img/accessible.jpg');
+        background-repeat: no-repeat;
+        z-index: 1;
+        background-size: cover;
+        position: relative;
+        padding-top: 300px;
+        
+        padding-bottom: 100px;
+        margin-bottom: 40px;
+    }
+    .shopproduct .container{
+        justify-self: left;
+    }
+    .txttme {
+        align-self: flex-end;
+        color: white;
+        font-weight: 800;
+        font-size: 97px;
+        font-family: oswald;
+        line-height: 115px;
+    }
+
+
+    .exploreproducts{
+        margin-top: 120px;
+        margin-bottom: 200px;
+    }
+    .exploreproducts .exploreproducts-txt{
+        color: #000000;
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .exploreproducts .products{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .exploreproducts .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .exploreproducts .products .plaintofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .plaintofu .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .exploreproducts .products .masalatofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .masalatofu .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+
+    .exploreproducts .products .dahi{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 50px;
+    }
+    .exploreproducts .products .dahi .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .dahi .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+
+
+    .exploreproducts .products .milk{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 50px;
+    }
+    .exploreproducts .products .milk .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .milk .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .shopproductwhich{
+        text-align: center;
+    }
+    .exploreproducts .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .exploreproducts .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 100px;
+        font-family: oswald;
+        text-align: center;
+        margin: 40px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        max-width: 654px;
+        text-align: center;
+        font-size: 18px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div a{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 1540px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+    }
+    .navbar-brand img{
+        width:100px;
+    }
+    
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: white;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+    .shopproduct{
+        background-image: url('../img/accessible.jpg');
+        background-repeat: no-repeat;
+        z-index: 1;
+        background-size: cover;
+        position: relative;
+        padding-top: 300px;
+        
+        padding-bottom: 100px;
+        margin-bottom: 40px;
+    }
+    .shopproduct .container{
+        justify-self: left;
+    }
+    .txttme {
+        align-self: flex-end;
+        color: white;
+        font-weight: 800;
+        font-size: 97px;
+        font-family: oswald;
+        line-height: 115px;
+    }
+
+
+
+
+
+    
+
+
+
+    .exploreproducts{
+        margin-top: 120px;
+        margin-bottom: 200px;
+    }
+    .exploreproducts .exploreproducts-txt{
+        color: #000000;
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .exploreproducts .products{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .exploreproducts .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .exploreproducts .products .plaintofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .plaintofu .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .exploreproducts .products .masalatofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .masalatofu .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+
+    .exploreproducts .products .dahi{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 50px;
+    }
+    .exploreproducts .products .dahi .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .dahi .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+
+
+    .exploreproducts .products .milk{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 50px;
+    }
+    .exploreproducts .products .milk .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .milk .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .shopproductwhich{
+        text-align: center;
+    }
+    .exploreproducts .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .exploreproducts .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 100px;
+        font-family: oswald;
+        text-align: center;
+        margin: 40px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        max-width: 654px;
+        text-align: center;
+        font-size: 18px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div a{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navbar-brand img{
+        width:100px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+
+    .shopproduct{
+        background-image: url('../img/accessible.jpg');
+        background-repeat: no-repeat;
+        z-index: 1;
+        background-size: cover;
+        position: relative;
+        padding-top: 350px;
+        
+        padding-bottom: 100px;
+        margin-bottom: 50px;
+    }
+    .shopproduct .container{
+        justify-self: left;
+    }
+    .txttme {
+        align-self: flex-end;
+        color: white;
+        font-weight: 800;
+        font-size: 97px;
+        font-family: oswald;
+        line-height: 115px;
+    }
+
+
+
+
+
+    
+
+
+
+    .exploreproducts{
+        margin-top: 120px;
+        margin-bottom: 200px;
+    }
+    .exploreproducts .exploreproducts-txt{
+        color: #000000;
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .exploreproducts .products{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .exploreproducts .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .exploreproducts .products .plaintofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .plaintofu .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .exploreproducts .products .masalatofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .masalatofu .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+
+    .exploreproducts .products .dahi{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 50px;
+    }
+    .exploreproducts .products .dahi .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .dahi .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+
+
+    .exploreproducts .products .milk{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 50px;
+    }
+    .exploreproducts .products .milk .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .milk .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .shopproductwhich{
+        text-align: center;
+    }
+    .exploreproducts .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .exploreproducts .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 100px;
+        font-family: oswald;
+        text-align: center;
+        margin: 40px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        max-width: 654px;
+        text-align: center;
+        font-size: 18px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    
+
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        z-index: 2;
+        position: fixed;
+        justify-self: center;
+        width: 100%;
+    }
+    
+    .navbar-brand img{
+        width:100px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39) !important;
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+
+    .shopproduct{
+        background-image: url('../img/accessible.jpg');
+        background-repeat: no-repeat;
+        z-index: 1;
+        background-size: cover;
+        position: relative;
+        padding-top: 350px;
+        
+        padding-bottom: 100px;
+        margin-bottom: 50px;
+    }
+    .shopproduct .container{
+        justify-self: left;
+    }
+    .txttme {
+        align-self: flex-end;
+        color: white;
+        font-weight: 800;
+        font-size: 97px;
+        font-family: oswald;
+        line-height: 115px;
+    }
+
+    .exploreproducts{
+        margin-top: 120px;
+        margin-bottom: 200px;
+    }
+    .exploreproducts .exploreproducts-txt{
+        color: #000000;
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .exploreproducts .products{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .exploreproducts .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .exploreproducts .products .plaintofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .plaintofu .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .exploreproducts .products .masalatofu .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .masalatofu .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+
+    .exploreproducts .products .dahi{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 50px;
+    }
+    .exploreproducts .products .dahi .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .dahi .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .products .milk{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 50px;
+    }
+    .exploreproducts .products .milk .prdctname{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .milk .tagline{
+        text-align: center;
+        font-size: 17px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .shopproductwhich{
+        text-align: center;
+    }
+    .exploreproducts .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .exploreproducts .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 100px;
+        font-family: oswald;
+        text-align: center;
+        margin: 40px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        max-width: 654px;
+        text-align: center;
+        font-size: 18px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+        
+    }
+    .footer{
+        background-color: #698e34;
+        height: 450px;
+        align-content: center;
+        padding-bottom: 48px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 48px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 23px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        margin: 48px;
+    }
+    .footer .fnav div{
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        margin: 48px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 15px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 14px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 425px){
+    header{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wheretobuy{
+        display: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+
+    .shopproduct{
+        background-image: url('../img/accessible.jpg');
+        background-repeat: no-repeat;
+        z-index: 1;
+        background-size: cover;
+        position: relative;
+        padding-top: 200px;
+        
+        padding-bottom: 100px;
+        margin-bottom: 50px;
+    }
+    .shopproduct .container{
+        justify-self: left;
+    }
+    .txttme {
+        align-self: flex-end;
+        color: white;
+        font-weight: 700;
+        font-size: 35px;
+        font-family: oswald;
+        line-height: 50px;
+    }
+
+    .exploreproducts{
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+    .exploreproducts .exploreproducts-txt{
+        color: #000000;
+        font-size: 40px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .exploreproducts .products{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .exploreproducts .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .exploreproducts .products .plaintofu .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .plaintofu .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 10px;
+    }
+    .exploreproducts .products .masalatofu .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .masalatofu .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+    .exploreproducts .products .dahi{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 10px;
+    }
+    .exploreproducts .products .dahi .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .dahi .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+    .exploreproducts .products .milk{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 10px;
+
+    }
+    .exploreproducts .products .milk .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .milk .tagline{
+        text-align: center;
+        justify-self: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+    .exploreproducts .shopproductwhich{
+        text-align: center;
+    }
+    .exploreproducts .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .exploreproducts .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+
+
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 30px;
+        font-family: oswald;
+        text-align: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        text-align: center;
+        font-size: 12px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+    }
+
+
+
+    .footer{
+        background-color: #698e34;
+        align-content: center;
+        padding-bottom: 24px;
+        height: 500px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 16px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 18px;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        margin: 16px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 13px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 13px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+    
+    
+}
+@media screen and (max-width: 375px){
+    header{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+  
+    .navbar-brand img{
+        width:80px;
+        padding-top: 10px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wheretobuy{
+        display: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+
+    .shopproduct{
+        background-image: url('../img/accessible.jpg');
+        background-repeat: no-repeat;
+        z-index: 1;
+        background-size: cover;
+        position: relative;
+        padding-top: 200px;
+        
+        padding-bottom: 100px;
+        margin-bottom: 50px;
+    }
+    .shopproduct .container{
+        justify-self: left;
+    }
+    .txttme {
+        align-self: flex-end;
+        color: white;
+        font-weight: 700;
+        font-size: 35px;
+        font-family: oswald;
+        line-height: 50px;
+    }
+
+    .exploreproducts{
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+    .exploreproducts .exploreproducts-txt{
+        color: #000000;
+        font-size: 40px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .exploreproducts .products{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .exploreproducts .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .exploreproducts .products .plaintofu .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .plaintofu .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 10px;
+    }
+    .exploreproducts .products .masalatofu .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .masalatofu .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+    .exploreproducts .products .dahi{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 10px;
+    }
+    .exploreproducts .products .dahi .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .dahi .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+    .exploreproducts .products .milk{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 10px;
+
+    }
+    .exploreproducts .products .milk .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .milk .tagline{
+        text-align: center;
+        font-size: 15px;
+        font-family: oswald;
+    }
+    .exploreproducts .shopproductwhich{
+        text-align: center;
+    }
+    .exploreproducts .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .exploreproducts .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+
+
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 30px;
+        font-family: oswald;
+        text-align: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        text-align: center;
+        font-size: 12px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+    }
+
+
+
+    .footer{
+        background-color: #698e34;
+        align-content: center;
+        padding-bottom: 24px;
+        height: 480px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 16px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 18px;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        margin: 16px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 13px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 18px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 13px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+    
+    
+}
+@media screen and (max-width: 320px){
+    header{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+    header .navbar button{
+        background-color: white;
+    }
+    .navbar-brand img{
+        width:80px;
+        padding-top: 10px;
+    }
+    .nav{
+        background-color: #b3e8e3;
+    }
+    .nav-item{
+        list-style-type: none;
+    }
+    .wheretobuy{
+        display: none;
+    }
+    .wtbuy{
+        border: 0;
+        background-color: rgb(5, 73, 39);
+        font-size: 22px;
+        font-family: Oswald;
+        border: 4px solid rgb(5, 73, 39);
+        font-weight: 600;
+    }
+    .wtbuy:hover{
+        color: rgb(5, 73, 39) !important;
+        background-color: #e0de6e;
+        border: 4px solid rgb(5, 73, 39);
+    }
+    .nav-item a{
+        color: #000000;
+        font-weight: 690;
+        font-size: 20px;
+        font-family: Oswald;
+    }
+    .nav-item a:hover{
+        color: rgb(6, 100, 53);
+    }
+
+    .shopproduct{
+        background-image: url('../img/accessible.jpg');
+        background-repeat: no-repeat;
+        z-index: 1;
+        background-size: cover;
+        position: relative;
+        padding-top: 200px;
+        
+        padding-bottom: 100px;
+        margin-bottom: 50px;
+    }
+    .shopproduct .container{
+        justify-self: left;
+    }
+    .txttme {
+        align-self: flex-end;
+        color: white;
+        font-weight: 700;
+        font-size: 35px;
+        font-family: oswald;
+        line-height: 50px;
+    }
+
+    .exploreproducts{
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+    .exploreproducts .exploreproducts-txt{
+        color: #000000;
+        font-size: 40px;
+        font-family: Oswald;
+        font-weight: 750;
+        text-align: center;
+    }
+    .exploreproducts .products{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .exploreproducts .products .plaintofu{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .exploreproducts .products .plaintofu .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .plaintofu .tagline{
+        text-align: center;
+        max-width: 280px;
+        font-size: 15px;
+        font-family: oswald;
+    }
+
+    .exploreproducts .products .masalatofu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 10px;
+    }
+    .exploreproducts .products .masalatofu .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -40px;
+    }
+    .exploreproducts .products .masalatofu .tagline{
+        text-align: center;
+        max-width: 280px;
+        font-size: 15px;
+        font-family: oswald;
+    }
+    .exploreproducts .products .dahi{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 10px;
+    }
+    .exploreproducts .products .dahi .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .dahi .tagline{
+        text-align: center;
+        max-width: 280px;
+        font-size: 15px;
+        font-family: oswald;
+    }
+    .exploreproducts .products .milk{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-top: 10px;
+
+    }
+    .exploreproducts .products .milk .prdctname{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        font-family: oswald;
+        margin-top: -7px;
+    }
+    .exploreproducts .products .milk .tagline{
+        text-align: center;
+        max-width: 280px;
+        font-size: 15px;
+        font-family: oswald;
+    }
+    .exploreproducts .shopproductwhich{
+        text-align: center;
+    }
+    .exploreproducts .shopproductwhich .sap{
+        background-color: #ff802f;
+        color: white;
+        border: 5px solid #ff802f;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: oswald;
+        padding: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+    }
+    .exploreproducts .shopproductwhich .sap:hover{
+        background-color: #fae1d7;
+        color: #ff802f;
+        transition: all  1s;
+    }
+
+
+    .toogood .toogoodtofu{
+        font-weight: 900;
+        font-size: 30px;
+        font-family: oswald;
+        text-align: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt{
+        color: rgba(0, 0, 0, 0.65);
+        text-align: center;
+        font-size: 12px;
+        font-family: oswald;
+        display: flex;
+        justify-self: center;
+        margin: 30px;
+    }
+    .toogood .toogoodtxt span{
+        color: #000000;
+        font-family: Schoolbell;
+    }
+
+
+    .footer{
+        background-color: #698e34;
+        align-content: center;
+        padding-bottom: 204px;
+    }
+    .footer .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 16px;
+        margin: 16px;
+    }
+    .footer .social-media div{
+        color: white;
+        font-size: 17px;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+    .footer .social-media div:hover a{
+        color: #1c4730;
+    }
+    .footer .fnav{
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .fnav div a{
+        color: white;
+        text-decoration: none;
+        font-family: oswald;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .footer .fnav div:hover a{
+        color: #1c4730;
+    }
+    .footer .privacy{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+        margin: 16px;
+    }
+    .footer .privacy div a{
+        color: white;
+        opacity: .5;
+        font-family: oswald;
+        font-size: 11px;
+    }
+    .footer .privacy div:hover a{
+        text-decoration: none;
+    }
+    .footer .copyright{
+        color: white;
+        justify-self: center;
+        font-family: oswald;
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .footer .develop{
+        justify-self: center;
+        margin-top: -15px;
+    }
+    .footer .develop a{
+        color: white;
+        font-family: oswald; 
+        opacity: 0.5; 
+        text-decoration: none; 
+        font-size: 13px;
+    }
+    .footer .develop:hover a{
+        text-decoration: underline;
+    }
+    
+    
+}
