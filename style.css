@@ -166,6 +166,25 @@
         height:30px;
         background-color: rgba(255, 255, 255, 0.156);
     }
+    .herodivider{
+        background-color:  #0B1C2C;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .herodivider div{
+        color: white;
+        font-weight: 300;
+        font-size: 13px;
+    }
+    .herodivider span{
+        color: #C9A55C;
+        font-weight: 900;
+        font-size: 16px;
+    }
     
 }
 @media screen and (max-width: 1024px) {
