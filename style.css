@@ -185,8 +185,351 @@
         font-weight: 900;
         font-size: 16px;
     }
+    .featureservices{
+        background-color: #F7F6F2;
+        padding-top: 80px;
+        padding-bottom: 40px
+    }
+    .featureservices .fstxt{
+        color: #C9A55C;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .featureservices .fshead{
+        color: #07233d;
+        display: flex;
+        width: 450px;
+        justify-self: center;
+        font-size: 35px;
+        font-weight: 750;
+        margin-top: -10px;
+        line-height: 40px;
+    }
+    .featureservices .webdesign{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        width: 1100px;
+        justify-self: center;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.064) ;
+        margin: 17px;
+    }
+    .featureservices .webdesign .wdtxt{
+        padding: 30px;
+        padding-top: 45px;
+        padding-left: 45px;
+    }
+    .featureservices .webdesign .wdtxt .bhead{
+        color: #C9A55C;
+    }
+    .featureservices .webdesign .wdtxt .head{
+        color: #07233d;
+        font-size: 30px;
+        font-weight: 690;
+    }
+    .featureservices .webdesign .wdtxt .txt{
+        margin-top: -4px;
+        width: 310px;
+        line-height: 25px;
+        color: black;
+        font-size: 15px;
+        font-weight: 310;
+    }
+    .featureservices .webdesign .wdimg img{
+        width: 600px !important;
+        border-radius: 0px 15px 15px 0px;
+    }
     
+    .featureservices .webdesign .wdtxt .button a:first-child{
+        font-size: 14px;
+        font-weight: 300;
+        padding:12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        color: white;
+        background-color: #07233d;
+        border: 1px solid #07233d;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+    .featureservices .webdesign .wdtxt .button a:first-child:hover{
+        color: #07233d;
+        background-color: white;
+    }
+    .featureservices .webdesign .wdtxt .button a:last-child{
+        font-size: 15px;
+        font-weight: 300;
+        color: #07233d;
+        background-color: white;
+        border: 2px solid white;
+        border-bottom: 2px solid #C9A55C;
+        border-radius: 0;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 10px;
+    }
+    .featureservices .webdesign .wdtxt .button a:last-child:hover{
+        background-color: #C9A55C;
+        border: 2px solid #C9A55C;
+        color: white;
+        border-radius: 30px;
+    }
+    .featureservices .brandidentity{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        width: 1100px;
+        justify-self: center;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.064) ;
+        margin: 17px;
+    }
+    .featureservices .brandidentity .bitxt{
+        padding: 30px;
+        padding-top: 45px;
+        padding-left: 45px;
+    }
+    .featureservices .brandidentity .bitxt .bhead{
+        color: #C9A55C;
+    }
+    .featureservices .brandidentity .bitxt .head{
+        color: #07233d;
+        font-size: 30px;
+        font-weight: 690;
+    }
+    .featureservices .brandidentity .bitxt .txt{
+        margin-top: -4px;
+        width: 310px;
+        line-height: 25px;
+        color: black;
+        font-size: 15px;
+        font-weight: 310;
+    }
+    .featureservices .brandidentity .biimg img{
+        width: 600px !important;
+        border-radius: 0px 15px 15px 0px;
+    }
+    .featureservices .brandidentity .bitxt .button a:first-child{
+        font-size: 14px;
+        font-weight: 300;
+        padding:12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        color: white;
+        background-color: #07233d;
+        border: 1px solid #07233d;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+    .featureservices .brandidentity .bitxt .button a:first-child:hover{
+        color: #07233d;
+        background-color: white;
+    }
+    .featureservices .brandidentity .bitxt .button a:last-child{
+        font-size: 15px;
+        font-weight: 300;
+        color: #07233d;
+        background-color: white;
+        border: 2px solid white;
+        border-bottom: 2px solid #C9A55C;
+        border-radius: 0;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 10px;
+    }
+    .featureservices .brandidentity .bitxt .button a:last-child:hover{
+        background-color: #C9A55C;
+        border: 2px solid #C9A55C;
+        color: white;
+        border-radius: 30px;
+    }
+    .featureservices .smartautomation{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        width: 1100px;
+        justify-self: center;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.064) ;
+        margin: 17px;
+    }
+    .featureservices .smartautomation .satxt{
+        padding: 30px;
+        padding-top: 45px;
+        padding-left: 45px;
+    }
+    .featureservices .smartautomation .satxt .bhead{
+        color: #C9A55C;
+    }
+    .featureservices .smartautomation .satxt .head{
+        color: #07233d;
+        font-size: 30px;
+        font-weight: 690;
+    }
+    .featureservices .smartautomation .satxt .txt{
+        margin-top: -4px;
+        width: 310px;
+        line-height: 25px;
+        color: black;
+        font-size: 15px;
+        font-weight: 310;
+    }
+    .featureservices .smartautomation .saimg img{
+        width: 600px !important;
+        border-radius: 0px 15px 15px 0px;
+    }
+    .featureservices .smartautomation .satxt .button a:first-child{
+        font-size: 14px;
+        font-weight: 300;
+        padding:12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        color: white;
+        background-color: #07233d;
+        border: 1px solid #07233d;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+    .featureservices .smartautomation .satxt .button a:first-child:hover{
+        color: #07233d;
+        background-color: white;
+    }
+    .featureservices .smartautomation .satxt .button a:last-child{
+        font-size: 15px;
+        font-weight: 300;
+        color: #07233d;
+        background-color: white;
+        border: 2px solid white;
+        border-bottom: 2px solid #C9A55C;
+        border-radius: 0;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 10px;
+    }
+    .featureservices .smartautomation .satxt .button a:last-child:hover{
+        background-color: #C9A55C;
+        border: 2px solid #C9A55C;
+        color: white;
+        border-radius: 30px;
+    }
+    .whydymic{
+        background-color: white;
+        margin-top: 50px;
+    }
+    .whydymic .bhead{
+        color: #C9A55C;
+        text-align: center;
+        font-size: 19px;
+        font-weight: 450;
+    }
+    .whydymic .head{
+        color: #07233d;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .whydymic .brandhighlight{
+        display: flex;
+        flex-direction: row;
+        margin: 36px;
+        margin-top: 60px;
+        
+        justify-content: space-evenly;
+    }
+    .whydymic .brandhighlight .divider{
+        margin-top: 10px;
+        width:2px;
+        height:180px;
+        background-color: rgba(186, 185, 185, 0.28);
+    }
+    .whydymic .brandhighlight .premium .gemicon{
+        color: #C9A55C;
+        font-size: 50px;
+        text-align: center;
+    }
+    .whydymic .brandhighlight .premium .phead{
+        color: #07233d;
+        font-size: 20px;
+        font-weight: 660;
+        text-align: center;
+    }
+    .whydymic .brandhighlight .premium .ptxt{
+        color: black;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .whydymic .brandhighlight .performance .perforicon{
+        color: #C9A55C;
+        font-size: 50px;
+        text-align: center;
+    }
+    .whydymic .brandhighlight .performance .pbhead{
+        color: #07233d;
+        font-size: 20px;
+        font-weight: 660;
+        text-align: center;
+    }
+    .whydymic .brandhighlight .performance .pbtxt{
+        color: black;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .whydymic .brandhighlight .smart .gearicon{
+        color: #C9A55C;
+        font-size: 50px;
+        text-align: center;
+    }
+    .whydymic .brandhighlight .smart .shead{
+        color: #07233d;
+        font-size: 20px;
+        font-weight: 660;
+        text-align: center;
+    }
+    .whydymic .brandhighlight .smart .stxt{
+        color: black;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .whydymic .brandhighlight .future .rocketicon{
+        color: #C9A55C;
+        font-size: 50px;
+        text-align: center;
+    }
+    .whydymic .brandhighlight .future .fhead{
+        color: #07233d;
+        font-size: 20px;
+        font-weight: 660;
+        text-align: center;
+    }
+    .whydymic .brandhighlight .future .ftxt{
+        color: black;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1024px) {
     .nav-item a{
         color: black;
