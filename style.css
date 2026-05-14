@@ -6,6 +6,9 @@
         top: 0;
         z-index: 10;    
     }
+    .navbar-brand img{
+        width: 200px;
+    }
     .nav-item .nav-link{
         color: #0B1C2C;
         font-weight: 400;
@@ -20,9 +23,12 @@
     .git{
         width: 200px;
         text-align: center;
-        
     }
     .git .btn{
+        padding: 8px;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin: 8px;
         background-color: #07233d;
         border: #0B1C2C;
         color: #ffffff;
@@ -375,18 +381,36 @@
 }
 @media screen and (max-width: 425px){
 
-    header{
+    
+    .navbar-brand img{
+        width: 120px;
+    }
+    .navbar-nav{
+        display: none !important;
+    }
+    .git{
+        width: 90px;
+        text-align: center;
+    }
+    .git .btn{
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        font-size: 10px;
+        font-weight: 250;
+    }
+    .git .btn span{
         display: none;
     }
-
 
     .hero{
         padding-top: 100px !important;
         padding-bottom: 50px;
     }
     .hero .txt{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .hero .txt .lhead{
         color: #C9A55C;
@@ -729,7 +753,7 @@
         text-align: center;
     }
 }
-@media screen and (max-width: 375px){
+/* @media screen and (max-width: 375px){
 
     header{
         display: none;
@@ -1440,7 +1464,7 @@
         font-weight: 300;
         text-align: center;
     }
-}
+} */
 
 
 
